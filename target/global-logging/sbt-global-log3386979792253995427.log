@@ -1,0 +1,44 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 18 Scala sources to /Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/BaselineCalculator.scala:17:34: value operatingAirline is not a member of air.model.LandingRecord[0m
+[0m[[0m[31merror[0m] [0m[0m      .groupBy(r => (r.period, r.operatingAirline))   // <- MUST MATCH FIELD NAME[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/BaselineCalculator.scala:21:11: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: java.time.YearMonth[0m
+[0m[[0m[31merror[0m] [0m[0m          period,[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/BaselineCalculator.scala:22:11: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m          airline,[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/BaselineCalculator.scala:23:16: value map is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m          rows.map(_.landingCount).sum,[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/BaselineCalculator.scala:24:16: value map is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m          rows.map(_.totalLandedWeight).sum[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/BaselineCalculator.scala:45:19: not found: type idx[0m
+[0m[[0m[31merror[0m] [0m[0m          (sorted[idx], baseline)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/BaselineCalculator.scala:45:18: value sorted of type Seq[air.service.BaselineCalculator.MonthlyAggregate] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m          (sorted[idx], baseline)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/LandingReader.scala:22:48: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Iterator[String][0m
+[0m[[0m[31merror[0m] [0m[0m    val tableTry: Try[RawTable] = parser.parse(csvPath)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/LandingReader.scala:31:37: value cells is not a member of com.phasmidsoftware.tableparser.core.table.RawRow[0m
+[0m[[0m[31merror[0m] [0m[0m          val header    = headerRow.cells.map(_.value.trim).toVector[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/LandingReader.scala:35:30: value cells is not a member of com.phasmidsoftware.tableparser.core.table.RawRow[0m
+[0m[[0m[31merror[0m] [0m[0m            val values = row.cells.map(_.value.trim).toVector[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Nov 19, 2025, 2:47:46 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

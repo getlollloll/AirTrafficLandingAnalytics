@@ -1,0 +1,30 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 18 Scala sources to /Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/BaselineCalculator.scala:45:19: not found: type idx[0m
+[0m[[0m[31merror[0m] [0m[0m          (sorted[idx], baseline)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/BaselineCalculator.scala:45:18: value sorted of type Seq[air.service.BaselineCalculator.MonthlyAggregate] does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m          (sorted[idx], baseline)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/LandingReader.scala:73:23: unknown parameter name: airline[0m
+[0m[[0m[31merror[0m] [0m[0m      airline         = airline,[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/LandingReader.scala:76:23: unknown parameter name: landingType[0m
+[0m[[0m[31merror[0m] [0m[0m      landingType     = laType,[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/LandingReader.scala:77:23: unknown parameter name: aircraftBody[0m
+[0m[[0m[31merror[0m] [0m[0m      aircraftBody    = bodyType,[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/LandingReader.scala:81:23: unknown parameter name: landings[0m
+[0m[[0m[31merror[0m] [0m[0m      landings        = lc,[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/raks/Documents/Northeastern/CSYE7200/Assignment/Spotify_API/AirTrafficLanding/src/main/scala/air/service/LandingReader.scala:82:23: unknown parameter name: landedWeight[0m
+[0m[[0m[31merror[0m] [0m[0m      landedWeight    = w[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Nov 19, 2025, 2:44:43 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
